@@ -1,0 +1,11 @@
+This is the open source License.txt file introduced in 
+Cmake/Tests/Tutorial/step6.....
+
+1. build binay distribution
+cpack --config CPackConfig.cmake
+
+2. build source distribution
+cpack  --config CPackSourceConfig.cmake
+
+3. using CTest
+ctest -D
