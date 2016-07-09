@@ -21,7 +21,7 @@ include_directories(${PROJECT_BINARY_DIR})
 
 # add the MathFunctions library ?
 if(USE_MYMATH)
-    include_directories(${PROJECT_SOURCE_DIR}/MathFunctions)
+    include_directories(${PROJECT_SOURCE_DIR}/MathFunctions)	# include MathFunctions.h
     add_subdirectory(MathFunctions)             # for creating MathFunction.a file
     set(EXTRA_LIBS ${EXTRA_LIB} MathFunctions)
 endif()

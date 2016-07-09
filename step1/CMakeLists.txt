@@ -11,6 +11,7 @@ configure_file(
     ${PROJECT_BINARY_DIR}/TutorialConfig.h
 )
 
+# include generator head file --> TutorialConfig.h
 include_directories(${PROJECT_BINARY_DIR})
 
 add_executable(Tutorial tutorial.cpp)
